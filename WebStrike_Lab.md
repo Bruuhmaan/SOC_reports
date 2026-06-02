@@ -1,4 +1,4 @@
-<h1><b>Scenario</b></h1>
+<h1><b>Scenario WebStrike Lab</b></h1>
 A suspicious file was identified on a company web server. The Development team flagged the anomaly, suspecting potential malicious activity. To address the issue, the network team captured critical network traffic and prepared a PCAP file for review. Your task is to analyze the provided PCAP file to uncover how the file appeared and determine the extent of any unauthorized activity.
 
 <h1><b>SOC report</b></h1>
