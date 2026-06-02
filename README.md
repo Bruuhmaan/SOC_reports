@@ -19,6 +19,9 @@ ___
 My Profiles:
 
 TryHackMe: https://tryhackme.com/p/Gutsexe
+
 CyberDefenders: https://cyberdefenders.org/p/Guts
+
 Github: https://github.com/Bruuhmaan/SOC_reports
+
 Telegram: @unusual_dreamguy
