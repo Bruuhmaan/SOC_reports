@@ -87,7 +87,7 @@ Source: Web server logs (HTTP request with Key: /etc/passwd).
 
 Severity: High.
 
-scanning the site for vulnerabilities, download locations of the reverse shell file
+scanning the site for vulnerabilities, download locations of the reverse shell file.
 
 
 <h3><b>Additional information</h3></b>
