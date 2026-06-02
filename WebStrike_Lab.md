@@ -2,6 +2,12 @@
 A suspicious file was identified on a company web server. The Development team flagged the anomaly, suspecting potential malicious activity. To address the issue, the network team captured critical network traffic and prepared a PCAP file for review. Your task is to analyze the provided PCAP file to uncover how the file appeared and determine the extent of any unauthorized activity.
 
 <h1><b>SOC report</b></h1>
+
+<h4><b>Analyst: Kirill / Telegram - @unusual_dreamguy</h4></b>
+Date: 2026-06-02
+Ticket ID: SOC-2026-0602-001
+
+<br>
 <h3><b>Time of activity</b></h3> UTC Arrival Time: Nov 30, 2023 18:44:52.446 UTC
 
 <h3><b>List of Affected Entities</b></h3>
@@ -16,13 +22,14 @@ Application/service: web browsing;
 
 Protocol: HTTP.
 
+<br>
 <h3><b>Reason for Classifying as True Positive</b></h3>
 
 T1027.009 — Embedded Payloads. The attacker embedded PHP code in a file that mimics an image (for example, image.jpg.php). This made it possible to hide malicious content from security systems that could rely on file extension verification or signature analysis. Obfuscation of the file name with a double extension makes it difficult to automatically identify the threat.
 
 T1190 — Exploitation for Client Execution. The malicious file was uploaded through a vulnerability in a web application. Specifically, due to insufficient verification of file extensions on the server. This made it possible to bypass the control mechanisms and place the executable code in the /reviews/uploads/ directory.
 
-
+<br>
 <h3><b>Reason for Escalating the Alert</h3></b>
 
 A malicious file containing a reverse shell PHP payload was successfully uploaded to the server. The incident poses a critical risk due to the following consequences:
@@ -35,7 +42,7 @@ Lateral movement. The compromised server can be used as a foothold to attack oth
 
 Malware deployment. The attacker can install additional malicious software (e.g., ransomware, spyware, backdoors) via the command line.
 
-
+<br>
 <h3><b>Recommended Remediation Actions</h3></b>
   
 1. <i>Immediate Containment:</i>
@@ -78,7 +85,7 @@ Blocking LFI/RFI on the web server (for example, via .htaccess or PHP settings).
 
 Monitoring attempts to access /etc/passwd and /etc/shadow in the future.
 
-
+<br>
 <h3><b>List of Attack Indicators</h3></b>
 
 Indicator: Unauthorized read access to /etc/passwd.
@@ -89,9 +96,10 @@ Severity: High.
 
 scanning the site for vulnerabilities, download locations of the reverse shell file.
 
-<h3><b>Analyst: Kirill / Telegram - @unusual_dreamguy</h3></b>
-<br> 
 
+<br> <br> 
+---
+<br> <br>
 
 <h3><b>Additional information</h3></b>
 
