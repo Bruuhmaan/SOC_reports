@@ -8,7 +8,7 @@ A suspicious file was identified on a company web server. The Development team f
 
 Source IP: 117.11.88.124 Source Port: 46658;
 
-Destenation IP: 24.49.63.79 Destenation port: 80 (HTTP); 
+Destination IP: 24.49.63.79 Destination port: 80 (HTTP); 
 
 Target resource: URL http://shoporoma.com/reviews/uploads/image.jpg.php;
 
