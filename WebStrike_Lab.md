@@ -89,6 +89,9 @@ Severity: High.
 
 scanning the site for vulnerabilities, download locations of the reverse shell file.
 
+<h3><b>Analyst: Kirill / Telegram - @unusual_dreamguy</h3></b>
+<br> 
+
 
 <h3><b>Additional information</h3></b>
 
