@@ -3,7 +3,7 @@ A suspicious file was identified on a company web server. The Development team f
 
 <h1><b>SOC report</b></h1>
 
-<h4><b>Analyst: Kirill / Telegram - @unusual_dreamguy</h4></b>
+<h4><b>Analyst: Kirill / Telegram - @unusual_dreamguy</b></h4>
 Date: 2026-06-02
 Ticket ID: SOC-2026-0602-001
 
@@ -59,11 +59,11 @@ Conduct a thorough malware scan of the entire server using up‑to‑date antivi
 
 Analyze network traffic logs from the past 72 hours for connections to and from IP 24.49.63.79. Look for:
 
-outbound connections to suspicious domains or IPs;
+Outbound connections to suspicious domains or IPs;
 
-large data transfers;
+Large data transfers;
 
-unusual protocols or ports.
+Unusual protocols or ports.
 
 Examine web server logs to identify the exact time and method of file upload, as well as any subsequent access to image.jpg.php.
 
@@ -103,7 +103,7 @@ scanning the site for vulnerabilities, download locations of the reverse shell f
 
 <h3><b>Additional information</h3></b>
 
-location of the malicious server - Tianjin:
+Attacker IP geolocation - Tianjin, China:
 
 <img src="https://drive.google.com/uc?export=view&id=1WYo3gp9xUjJGsyPPPkw4Pexs2cTMUzCD" alt="location of the malicious server" width="1000" />
 
