@@ -13,8 +13,8 @@ A suspicious file was identified on a company web server. The Development team f
 ## **SOC report**
 
 **Analyst: Kirill / Telegram - @unusual_dreamguy**  
-Date: 2026-06-02  
-Ticket ID: SOC-2026-0602-001
+Date: 2026-02-06 
+Ticket ID: SOC-2026-0206-001
 
 ### **Time of activity**
 UTC Arrival Time: Nov 30, 2023 18:44:52.446 UTC
@@ -98,8 +98,8 @@ Access to /etc/passwd:
 ## **Отчёт SOC**
 
 **Аналитик: Кирилл / Telegram - @unusual_dreamguy**  
-Дата: 2026-06-02  
-ID заявки: SOC-2026-0602-001
+Дата: 2026-02-06  
+ID заявки: SOC-2026-0206-001
 
 ### **Время активности**
 Время активности (UTC): 30 ноября 2023 г., 18:44:52.446 UTC
