@@ -13,7 +13,7 @@ A suspicious file was identified on a company web server. The Development team f
 ## **SOC report**
 
 **Analyst: Kirill / Telegram - @unusual_dreamguy**  
-Date: 2026-02-06 
+Date: 2026-02-06  
 Ticket ID: SOC-2026-0206-001
 
 ### **Time of activity**
