@@ -156,11 +156,11 @@ ID заявки: SOC-2026-0806-001
 ---
 
 ### **Дополнительная информация**
-Геолокация IP-адреса злоумышленника — Гуанчжоу, Гуандун, Китай:
+Геолокация IP-адреса злоумышленника - Гуанчжоу, Гуандун, Китай:
 
 <img src="https://drive.google.com/uc?export=view&id=1VCU_7QsdY1QNa7ljOigIyrfyP8cdwTPx" alt="местоположение вредоносного сервера" width="1000" />
 
-Этап — перебор (enumeration):
+Этап - перебор (enumeration):
 
 <img src="https://drive.google.com/uc?export=view&id=1c_OVUZSJhM4SjTIOZEYiMKfgOAXPEUj3" alt="перебор" width="1000" />
 
