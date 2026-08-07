@@ -11,7 +11,7 @@ ___
 | :--- | :--- | :--- | :--- |
 | **[ WebStrike](./01_Network_Forensics/WebStrike_Lab.md )** | 🟢 **Network Forensics** | PCAP file analysis: PHP shell download via obfuscation (double extension). | Wireshark, CVE-2025-24813, T1027, T1190 |
 | **[Tomcat Takeover](./01_Network_Forensics/Tomcat_Takeover_Lab.md)** | 🟢 **Network Forensics** | Compromise of Apache Tomcat through default credentials and downloads.the war file. | Wireshark, CVE-2018-1336, T1505.005, T1059.004 |
-| **[Ramnit_Lab](./02_Endpoint_Forensics/Ramnit_Lab_(Windows_log_Analysis).md)** | 🟡 **Endpoint Forensics** | Memory dump analysis: detection of a masked process, C2 communication. | Volatility3, T1036, T1204, T1071 |
+| **[Ramnit_Lab](./02_Endpoint_Forensics/Ramnit_Lab.md)** | 🟡 **Endpoint Forensics** | Memory dump analysis: detection of a masked process, C2 communication. | Volatility3, T1036, T1204, T1071 |
 
 ## 📄 What each report contains
 
