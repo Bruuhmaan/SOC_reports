@@ -32,7 +32,7 @@ ___
 
 | **Tool** | **Purpose** |
 | :--- | :--- |
-| ** Wireshark** | Network Traffic Analysis (PCAP) |
+| **Wireshark** | Network Traffic Analysis (PCAP) |
 | **Volatility 3** | Memory congestion (dumps) |
 | **CyberChef** | Base64 decoding / Payload analysis |
 | **VirusTotal** | IOC enrichment (hashes, IP, domains) |
