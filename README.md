@@ -61,7 +61,11 @@ Telegram: @unusual_dreamguy
 The materials were created for educational purposes to demonstrate SOC L1 skills.  
 When copying, please, provide a link to the original repository.
 
+---
 
+**Disclaimer:** This repository contains laboratory reports created for educational 
+and portfolio purposes. The materials are based on CyberDefenders.org laboratory 
+exercises and are not intended for malicious use.
 
 ---
 
@@ -76,17 +80,11 @@ ___
 
 | **Название** | **Тип** | **Краткое описание** | **Ключевые техники / Инструменты** |
 | :--- | :--- | :--- | :--- |
-| **[ WebStrike](./01_Network_Forensics/WebStrike_Lab.md )** | 🟢 **Сетевая криминалистика** | Анализ PCAP-файла: загрузка PHP-шелла через обфускацию (двойное расширение). | Wireshark, CVE-2025-24813, T1027, T1190 |
-| **[Tomcat Takeover](./01_Network_Forensics/Tomcat_Takeover_Lab.md)** | 🟢 **Сетевая криминалистика** | Компрометация Apache Tomcat через стандартные учетные данные и загрузка .war-файла. | Wireshark, CVE-2018-1336, T1505.005, T1059.004 |
-| **[Ramnit_Lab](./02_Endpoint_Forensics/Ramnit_Lab.md)** | 🟡 **Криминалистика конечных точек** | Анализ дампа памяти: обнаружение замаскированного процесса, C2-взаимодействие. | Volatility3, T1036, T1204, T1071 |
+| **[ WebStrike](./01_Network_Forensics/WebStrike_Lab.md )** | **Сетевая криминалистика** | Анализ PCAP-файла: загрузка PHP-шелла через обфускацию (двойное расширение). | Wireshark, CVE-2025-24813, T1027, T1190 |
+| **[Tomcat Takeover](./01_Network_Forensics/Tomcat_Takeover_Lab.md)** | **Сетевая криминалистика** | Компрометация Apache Tomcat через стандартные учетные данные и загрузка .war-файла. | Wireshark, CVE-2018-1336, T1505.005, T1059.004 |
+| **[Ramnit_Lab](./02_Endpoint_Forensics/Ramnit_Lab.md)** | **Криминалистика конечных точек** | Анализ дампа памяти: обнаружение замаскированного процесса, C2-взаимодействие. | Volatility3, T1036, T1204, T1071 |
 
-| **Цвет** | **Тип лабораторной работы** |
-| :--- | :--- |
-| 🟢 | **Сетевая криминалистика** — анализ PCAP, сетевой трафик, Wireshark |
-| 🟡 | **Криминалистика конечных точек** — анализ дампов памяти, Volatility, процессы |
-| 🔵 | **Анализ журналов** — анализ журналов событий, Syslog, журналов SIEM (в будущем) |
-| 🟣 | **Охота за угрозами** — активный поиск угроз (в будущем) |
-| 🟠 | **Анализ вредоносного ПО** — базовый анализ вредоносных файлов (в будущем) |
+
 
 ## 📄 Что содержит каждый отчет
 
@@ -128,3 +126,9 @@ Telegram: @unusual_dreamguy
 
 Материалы созданы в образовательных целях для демонстрации навыков SOC L1.  
 При копировании, пожалуйста, указывайте ссылку на исходный репозиторий.
+
+---
+
+**Отказ от ответственности:** Этот репозиторий содержит лабораторные отчеты, созданные для образовательных
+целей и создания портфолио. Материалы основаны на лабораторных
+упражнениях CyberDefenders.org и не предназначены для злонамеренного использования.
