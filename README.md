@@ -15,17 +15,10 @@ ___
 
 | **Name** | **Type** | **Short Description** | **Key Techniques / Tools** |
 | :--- | :--- | :--- | :--- |
-| **[ WebStrike](./01_Network_Forensics/WebStrike_Lab.md )** | 🟢 **Network Forensics** | PCAP file analysis: PHP shell download via obfuscation (double extension). | Wireshark, CVE-2025-24813, T1027, T1190 |
-| **[Tomcat Takeover](./01_Network_Forensics/Tomcat_Takeover_Lab.md)** | 🟢 **Network Forensics** | Compromise of Apache Tomcat through default credentials and downloads.the war file. | Wireshark, CVE-2018-1336, T1505.005, T1059.004 |
-| **[Ramnit_Lab](./02_Endpoint_Forensics/Ramnit_Lab.md)** | 🟡 **Endpoint Forensics** | Memory dump analysis: detection of a masked process, C2 communication. | Volatility3, T1036, T1204, T1071 |
+| **[ WebStrike](./01_Network_Forensics/WebStrike_Lab.md )** | **Network Forensics** | PCAP file analysis: PHP shell download via obfuscation (double extension). | Wireshark, CVE-2025-24813, T1027, T1190 |
+| **[Tomcat Takeover](./01_Network_Forensics/Tomcat_Takeover_Lab.md)** | **Network Forensics** | Compromise of Apache Tomcat through default credentials and downloads.the war file. | Wireshark, CVE-2018-1336, T1505.005, T1059.004 |
+| **[Ramnit_Lab](./02_Endpoint_Forensics/Ramnit_Lab.md)** | **Endpoint Forensics** | Memory dump analysis: detection of a masked process, C2 communication. | Volatility3, T1036, T1204, T1071 |
 
-| **Color** | **Type of laboratory** |
-| :--- | :--- |
-| 🟢 | **Network Forensics** — PCAP analysis, network traffic, Wireshark |
-| 🟡 | **Endpoint Forensics** — memory dump analysis, Volatility, processes |
-| 🔵 | **Log Analysis** — analysis of Event Logs, Syslog, SIEM logs (in the future) |
-| 🟣 | **Threat Hunting** — threat hunting, active search (in the future) |
-| 🟠 | **Malware Analysis** — basic analysis of malicious files (in the future) |
 
 ## 📄 What each report contains
 
