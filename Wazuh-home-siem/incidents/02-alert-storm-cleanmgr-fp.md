@@ -15,7 +15,7 @@
 ## 2. Incident Overview
 A high volume of Level 15 alerts was triggered within a short time window. Sysmon Event ID 11 (FileCreate) captured the creation of multiple `.exe` and `.dll` files in the user's `AppData\Local\Temp` directory.
 
-## 3. Investigation & Analysis (Triage)
+## 3. Investigation & Analysis
 Analysis of the `Image` field revealed that the files were created by legitimate Windows binaries:
 *   `C:\Windows\system32\cleanmgr.exe` (Disk Cleanup Utility)
 *   `C:\Windows\System32\sdiagnhost.exe` (Diagnostic Service Host)
@@ -63,7 +63,7 @@ after:
 ## 2. Обзор инцидента
 За короткий промежуток времени сработало большое количество алертов уровня 15. Sysmon Event ID 11 (FileCreate) зафиксировал создание множества файлов `.exe` и `.dll` в каталоге `AppData\Local\Temp` пользователя.
 
-## 3. Расследование и анализ (триаж)
+## 3. Расследование и анализ
 Анализ поля `Image` показал, что файлы были созданы легитимными бинарными файлами Windows:
 *   `C:\Windows\system32\cleanmgr.exe` (средство очистки диска)
 *   `C:\Windows\System32\sdiagnhost.exe` (узел службы диагностики)
