@@ -34,7 +34,7 @@ To improve detection capabilities, a custom rule was created in /var/ossec/etc/r
 
 <img src="https://drive.google.com/uc?export=view&id=1kSv_ZzLCGVzfjXV3gvl9YdD_dNhcE_it" alt="" width="1000" />
 
-MITTRE:
+MITRE:
 
 <img src="https://drive.google.com/uc?export=view&id=11FBnN-ZV-pnr_u7JB8_-qy0zk4PuwPWB" alt="" width="1000" />
 
