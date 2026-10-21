@@ -35,7 +35,7 @@ To prevent alert fatigue a targeted suppression rule was implemented in `/var/os
 </rule>
 ```
 
-### Rule Verification Challenge:
+### Rule Verification Challenge
 Verifying a Level 0 suppression rule can be tricky because Wazuh intentionally drops these events from the alerts.json and the Dashboard to reduce noise.
 To prove the rule works, logall_json was temporarily enabled, but this did not help and the rules with level 0 were not displayed. Therefore, I believe that the absence of Phase 3 in the wazuh-logtest response to the json request can serve as confirmation of the rule's operation.
 
@@ -83,7 +83,7 @@ after:
 </rule>
 ```
 
-### Сложность проверки правила:
+### Сложность проверки правила
 Проверка правила подавления уровня 0 может быть непростой, поскольку Wazuh намеренно исключает такие события из alerts.json и Dashboard для снижения шума.
 Чтобы доказать работоспособность правила, logall_json был временно включён, но это не помогло, и правила с уровнем 0 не отображались. Поэтому я считаю, что отсутствие Phase 3 в ответе wazuh-logtest на json-запрос может служить подтверждением работы правила.
 
